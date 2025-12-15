@@ -1,28 +1,26 @@
-#  Next.js Blog Explorer
+# User Registration App with Next.js, Zod, and React Hook Form
 
-A simple and responsive blog exploration website built using **Next.js**, **TypeScript**, and **JSONPlaceholder API**.  
-This project displays a list of blogs, detailed blog pages, and author information — all with a clean UI.
-
----
-
-##  Features
-
-- Fetch blog posts from JSONPlaceholder API  
-- Responsive UI using Tailwind CSS  
-- Blog listing page  
-- Single blog detail page  
-- Author information section  
-- Dynamic routing in Next.js  
+Backend (Zod Validation Only)
 
 ---
 
-##  Tech Used
+## Features
 
-- **Next.js 14**  
-- **React**  
-- **TypeScript**  
-- **Tailwind CSS**  
-- **JSONPlaceholder API**
+- Full-stack validation using **Zod**.
+- **React Hook Form** for frontend form management.
+- Display of **backend and frontend validation errors**.
+- **In-memory storage** for registered users.
+- List of registered users displayed on the registration page.
+- Minimal CSS styling with **Tailwind CSS**.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, Next.js, React Hook Form, Tailwind CSS
+- **Backend:** Next.js API Routes, Zod
+- **Validation:** Zod (shared schema between frontend & backend)
+
 
 ---
 
